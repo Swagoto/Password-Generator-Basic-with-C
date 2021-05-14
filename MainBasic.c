@@ -7,7 +7,7 @@ int main(){
     srand(time(NULL));
 
     int passSize;
-    char alpabhet[]="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!£$%^&*#~?/:;";
+    char alpabhet[]="qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM!@#$%^&-+=|\:;>.,<";
 
     printf("How many characters do you want in your password(6-30)\n");
     scanf("%d", &passSize);
